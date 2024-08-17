@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B820812C704BAC00511377 /* FramworkDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B820802C704BAC00511377 /* FramworkDetailsView.swift */; };
+		18B820832C704D7200511377 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B820822C704D7200511377 /* AFButton.swift */; };
+		18B820852C70501F00511377 /* framworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B820842C70501F00511377 /* framworkGridViewModel.swift */; };
+		18B820872C70823C00511377 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B820862C70823C00511377 /* SafariView.swift */; };
+		18B820892C7088DA00511377 /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B820882C7088DA00511377 /* FrameworkTitleView.swift */; };
+		18B8208B2C7089A900511377 /* XDismisButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8208A2C7089A900511377 /* XDismisButton.swift */; };
 		18F152412C6F3F2100C18E25 /* AppFremworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F152402C6F3F2100C18E25 /* AppFremworkApp.swift */; };
 		18F152432C6F3F2100C18E25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F152422C6F3F2100C18E25 /* ContentView.swift */; };
 		18F152452C6F3F2400C18E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F152442C6F3F2400C18E25 /* Assets.xcassets */; };
@@ -14,6 +20,8 @@
 		18F152522C6F3F2400C18E25 /* AppFremworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F152512C6F3F2400C18E25 /* AppFremworkTests.swift */; };
 		18F1525C2C6F3F2400C18E25 /* AppFremworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1525B2C6F3F2400C18E25 /* AppFremworkUITests.swift */; };
 		18F1525E2C6F3F2400C18E25 /* AppFremworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1525D2C6F3F2400C18E25 /* AppFremworkUITestsLaunchTests.swift */; };
+		18F1526B2C6F3F7A00C18E25 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1526A2C6F3F7A00C18E25 /* Framework.swift */; };
+		18F1526D2C6F438F00C18E25 /* FremworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1526C2C6F438F00C18E25 /* FremworkGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18B820802C704BAC00511377 /* FramworkDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramworkDetailsView.swift; sourceTree = "<group>"; };
+		18B820822C704D7200511377 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
+		18B820842C70501F00511377 /* framworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = framworkGridViewModel.swift; sourceTree = "<group>"; };
+		18B820862C70823C00511377 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		18B820882C7088DA00511377 /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
+		18B8208A2C7089A900511377 /* XDismisButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismisButton.swift; sourceTree = "<group>"; };
 		18F1523D2C6F3F2100C18E25 /* AppFremwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppFremwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F152402C6F3F2100C18E25 /* AppFremworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFremworkApp.swift; sourceTree = "<group>"; };
 		18F152422C6F3F2100C18E25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +58,8 @@
 		18F152572C6F3F2400C18E25 /* AppFremworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppFremworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F1525B2C6F3F2400C18E25 /* AppFremworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFremworkUITests.swift; sourceTree = "<group>"; };
 		18F1525D2C6F3F2400C18E25 /* AppFremworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFremworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18F1526A2C6F3F7A00C18E25 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		18F1526C2C6F438F00C18E25 /* FremworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FremworkGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +87,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18B8208C2C708B2A00511377 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				18B8208D2C708B3900511377 /* FrameworkGridView */,
+				18B8208E2C708BB500511377 /* FramworkDetailView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		18B8208D2C708B3900511377 /* FrameworkGridView */ = {
+			isa = PBXGroup;
+			children = (
+				18F1526C2C6F438F00C18E25 /* FremworkGridView.swift */,
+				18B820842C70501F00511377 /* framworkGridViewModel.swift */,
+			);
+			path = FrameworkGridView;
+			sourceTree = "<group>";
+		};
+		18B8208E2C708BB500511377 /* FramworkDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				18B820802C704BAC00511377 /* FramworkDetailsView.swift */,
+			);
+			path = FramworkDetailView;
+			sourceTree = "<group>";
+		};
+		18B8208F2C708BE700511377 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18F1526A2C6F3F7A00C18E25 /* Framework.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18B820902C708BF900511377 /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				18B820862C70823C00511377 /* SafariView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		18B820912C708C1200511377 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18B820932C708C3400511377 /* View */,
+				18B820922C708C1F00511377 /* Button */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18B820922C708C1F00511377 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				18B8208A2C7089A900511377 /* XDismisButton.swift */,
+				18B820822C704D7200511377 /* AFButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		18B820932C708C3400511377 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18B820882C7088DA00511377 /* FrameworkTitleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		18F152342C6F3F2100C18E25 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +178,10 @@
 		18F1523F2C6F3F2100C18E25 /* AppFremwork */ = {
 			isa = PBXGroup;
 			children = (
+				18B820912C708C1200511377 /* Views */,
+				18B820902C708BF900511377 /* UIKit Components */,
+				18B8208F2C708BE700511377 /* Model */,
+				18B8208C2C708B2A00511377 /* Screens */,
 				18F152402C6F3F2100C18E25 /* AppFremworkApp.swift */,
 				18F152422C6F3F2100C18E25 /* ContentView.swift */,
 				18F152442C6F3F2400C18E25 /* Assets.xcassets */,
@@ -257,8 +345,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B820852C70501F00511377 /* framworkGridViewModel.swift in Sources */,
+				18B820892C7088DA00511377 /* FrameworkTitleView.swift in Sources */,
+				18B820812C704BAC00511377 /* FramworkDetailsView.swift in Sources */,
 				18F152432C6F3F2100C18E25 /* ContentView.swift in Sources */,
 				18F152412C6F3F2100C18E25 /* AppFremworkApp.swift in Sources */,
+				18B820872C70823C00511377 /* SafariView.swift in Sources */,
+				18F1526B2C6F3F7A00C18E25 /* Framework.swift in Sources */,
+				18B820832C704D7200511377 /* AFButton.swift in Sources */,
+				18F1526D2C6F438F00C18E25 /* FremworkGridView.swift in Sources */,
+				18B8208B2C7089A900511377 /* XDismisButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
