@@ -15,7 +15,7 @@ struct FremworkGridView: View {
     var body: some View {
       
      
-        NavigationView {
+        NavigationStack {
            
 //            ScrollView {
 //                LazyVGrid(columns:viewModel.column){
@@ -23,7 +23,7 @@ struct FremworkGridView: View {
                    
                     ForEach(MockData.frameworks){ item in
                         
-                        NavigationLink(destination:FramworkDetailsView(framwork: item, isShowingDetailsView: $viewModel.isShowingDetailsView)){
+                        NavigationLink(value:item){
                             FremworkTitleView(fremwork: item)
                         }
                         
@@ -38,8 +38,13 @@ struct FremworkGridView: View {
 //            }
             .navigationTitle("🍎 Frameworks")
             
-            .sheet(isPresented: $viewModel.isShowingDetailsView){
-                FramworkDetailsView(framwork: viewModel.selectedFramwork!, isShowingDetailsView: $viewModel.isShowingDetailsView)
+//            .sheet(isPresented: $viewModel.isShowingDetailsView){
+//                FramworkDetailsView(framwork: viewModel.selectedFramwork!, isShowingDetailsView: $viewModel.isShowingDetailsView)
+//            }
+            .navigationDestination(for: Framework.self){ fremwork in
+                
+                FramworkDetailsView(framwork: fremwork)
+                
             }
             
         }

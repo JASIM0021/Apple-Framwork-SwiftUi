@@ -10,7 +10,7 @@ import SwiftUI
 struct FramworkDetailsView: View {
     let framwork : Framework
     @State var isShowingSafariView = false
-    @Binding var isShowingDetailsView : Bool
+//    @Binding var isShowingDetailsView : Bool
     var body: some View {
         
         VStack{
@@ -43,5 +43,5 @@ struct FramworkDetailsView: View {
 }
 
 #Preview {
-    FramworkDetailsView(framwork: MockData.sampleFramework, isShowingDetailsView: .constant(false))
+    FramworkDetailsView(framwork: MockData.sampleFramework)
 }
